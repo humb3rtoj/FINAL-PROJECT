@@ -1,0 +1,156 @@
+/*
+
+Theme name: Music Pro
+
+Theme url: http://themeforest.brutal-design.com/html/musicpro
+
+Description: Music Pro is a music oriented html theme, perfect for a band, a label, or a webzine. It is fully customizable and well documented.
+It can be used for any other purpose as well.
+
+Version: 1.0
+
+Author: Constantin Saguin (Brutal Design)
+
+Author url: http://splash.brutal-design.com
+
+*/
+
+body {
+  background: url("bg-light.png") repeat;
+}
+
+/* Topbar*/
+#topbar {
+  background: #EBEBEB;
+}
+
+#topbar a {
+  color: #000!important;
+}
+
+/* Main custom color */
+#main-container h1 span, #main-container h2 span, #main-container h3 span, #main-container h4 span,
+#main-container h5 span, #main-container h6 span,  table.no-bg thead tr th,
+#main-container a, .error-wrap a, 
+.post h2 a span, #filter a, #filter a:hover {
+  color: #000;
+}
+
+#nav a.active, #nav a:hover {
+  color: gray;
+}
+
+#main-container strong {
+  color:#000!important
+}
+
+/* Global font color */
+#main-container, #main-container h1, #main-container h2, #main-container h3, #main-container h4, #main-container h5, #main-container h6, #main-container blockquote span.cite, #filter a.active:hover, .post h2 a, .blog-links a {
+  color: #4d4d4d !important;
+}
+
+#main-container {
+  text-shadow: 1px 1px #fff;
+}
+
+/* Page links underline */
+a.dotted, aside .tweet_text a {
+  text-decoration: none!important;
+  border-bottom: 1px dotted #000;
+}
+
+/* Image shadow */
+.shadow {
+  -moz-box-shadow: 3px 3px 5px #333333;
+  -webkit-box-shadow: 3px 3px 5px #333333;
+  -o-box-shadow: 3px 3px 5px #333333;
+  box-shadow: 3px 3px 5px #333333;
+}
+
+/* Separator */
+.separator {
+  border-top: #d4d4d4 1px solid;
+  background: #f5f5f5;
+}
+
+blockquote p {
+  color: #000;
+  text-shadow: none;
+}
+
+/* Image frame */
+.frame {
+  background-color: #EBEBEB;
+  outline: 1px solid #0d0d0d;
+}
+
+.zoom  {
+  background-color: #EBEBEB;
+}
+
+.notif {
+  -moz-box-shadow: 3px 3px 5px #cccccc;
+  -webkit-box-shadow: 3px 3px 5px #cccccc;
+  -o-box-shadow: 3px 3px 5px #cccccc;
+  box-shadow: 3px 3px 5px #cccccc;
+}
+
+span.icon {
+  background-color: #999!important;
+  border: none;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("icons_light.png");
+}
+
+span.icon:hover {
+  background-color: #000!important;
+  background-image: url("icons_light.png");
+}
+
+.box {
+  background: #e3e3e3;
+}
+
+.box p a {
+  color: #000!important;
+}
+
+.two-cols .overlay_zoom, .three-cols .overlay_zoom, .four-cols .overlay_zoom {
+  background-color: #b8b8b8;
+}
+
+.input input, .input textarea {
+  border: 1px solid #cccccc;
+  -moz-box-shadow: inset 0px 0px 5px 1px #cccccc;
+  -webkit-box-shadow: inset 0px 0px 5px 1px #cccccc;
+  -o-box-shadow: inset 0px 0px 5px 1px #cccccc;
+  box-shadow: inset 0px 0px 5px 1px #cccccc;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.input input:focus, .input textarea:focus {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.clearfix.error .input input, .clearfix.error .input textarea {
+  border: 1px solid #ff6666;
+  -moz-box-shadow: inset 0px 0px 5px 1px #ff8080;
+  -webkit-box-shadow: inset 0px 0px 5px 1px #ff8080;
+  -o-box-shadow: inset 0px 0px 5px 1px #ff8080;
+  box-shadow: inset 0px 0px 5px 1px #ff8080;
+}
+
+#loader {background:url(ajax-loader.gif) no-repeat; width:16px; height:16px}
+
+#copyright {
+  text-shadow: none;
+}

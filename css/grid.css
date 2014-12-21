@@ -1,0 +1,203 @@
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body {
+  min-width: 960px;
+}
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+
+
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.row .prefix_5 {
+  padding-left: 400px;
+}
+
+.row .prefix_11 {
+  padding-left: 880px;
+}
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.row .suffix_1 {
+
+.row .suffix_4 {
+  padding-right: 320px;
+}
+
+.row .suffix_5 {
+  padding-right: 400px;
+}
+
+.row .suffix_6 {
+  padding-right: 480px;
+}
+
+.row .suffix_7 {
+  padding-right: 560px;
+}
+
+.row .suffix_8 {
+  padding-right: 640px;
+}
+
+.row .suffix_9 {
+  padding-right: 720px;
+}
+
+.row .suffix_10 {
+  padding-right: 800px;
+}
+
+.row .suffix_11 {
+  padding-right: 880px;
+}
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.row .push_1 {
+  left: 80px;
+}
+
+.row .push_2 {
+  left: 160px;
+}
+
+.row .push_3 {
+  left: 240px;
+}
+
+.row .push_4 {
+  left: 320px;
+}
+
+.row .push_5 {
+  left: 400px;
+}
+
+.row .push_6 {
+  left: 480px;
+}
+
+.row .push_7 {
+  left: 560px;
+}
+
+.row .push_8 {
+  left: 640px;
+}
+
+.row .push_9 {
+  left: 720px;
+}
+
+.row .push_10 {
+  left: 800px;
+}
+
+.row .push_11 {
+  left: 880px;
+}
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.row .pull_1 {
+  left: -80px;
+}
+
+.row .pull_2 {
+  left: -160px;
+}
+
+.row .pull_3 {
+  left: -240px;
+}
+
+.row .pull_4 {
+  left: -320px;
+}
+
+.row .pull_5 {
+  left: -400px;
+}
+
+.row .pull_6 {
+  left: -480px;
+}
+
+.row .pull_7 {
+  left: -560px;
+}
+
+.row .pull_8 {
+  left: -640px;
+}
+
+.row .pull_9 {
+  left: -720px;
+}
+
+.row .pull_10 {
+  left: -800px;
+}
+
+.row .pull_11 {
+  left: -880px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.row:after {
+  clear: both;
+}
+

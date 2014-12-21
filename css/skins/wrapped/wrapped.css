@@ -1,0 +1,59 @@
+/*
+
+Theme name: Music Pro
+
+Theme url: http://themeforest.brutal-design.com/html/musicpro
+
+Description: Music Pro is a music oriented html theme, perfect for a band, a label, or a webzine. It is fully customizable and well documented.
+It can be used for any other purpose as well.
+
+Version: 1.0
+
+Author: Constantin Saguin (Brutal Design)
+
+Author url: http://splash.brutal-design.com
+
+*/
+
+body {
+  background: url(old_wall.png) repeat;
+}
+
+header, footer, #topbar {
+  background: none;
+}
+
+#wrapper {
+  background: #181818;
+  width: 1000px;
+  padding: 0;
+  margin: 50px auto;
+}
+
+#topbar, #main-container, footer {
+  border-bottom: 1px dotted #373737;
+}
+
+#intro {
+  border-top: 1px dotted #1b1b1b;
+}
+
+#main-container {
+  padding-top: 0;
+}
+
+#slider {
+  border: 10px solid #101010;
+}
+
+.nivo-controlNav {
+  background: none;
+}
+
+#anythingslidercontainer {
+  margin-bottom: 20px!important;
+}
+
+#copyright {
+ background:#181818;
+}
